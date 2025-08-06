@@ -1,0 +1,59 @@
+/* A modern, comprehensive CSS reset
+*/
+
+/* 1. Use a more intuitive box-sizing model on all elements.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin from the body and most common elements.
+*/
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd, ul, ol {
+  margin: 0;
+}
+
+/* 3. Remove default padding and list styles from lists.
+*/
+ul, ol {
+  padding: 0;
+  list-style: none;
+}
+
+/*
+  4. Set core body defaults for a better baseline.
+*/
+body {
+  min-height: 100vh;
+  line-height: 1.5; /* Improves readability */
+  -webkit-font-smoothing: antialiased; /* Smoother fonts on macOS/iOS */
+}
+
+/* 5. Make images and other media easier to work with.
+*/
+img, picture, video, canvas, svg {
+  display: block; /* Removes bottom space under images */
+  max-width: 100%; /* Prevents media from overflowing its container */
+}
+
+/* 6. Remove default text decorations and make anchors inherit text color.
+*/
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 7. Make sure forms and buttons have a consistent font.
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. A simple reset for button styles.
+*/
+button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
